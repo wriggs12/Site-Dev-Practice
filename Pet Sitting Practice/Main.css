@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: rgba(0, 0, 0, 0.1);
+}
+.social {
+	background-image: linear-gradient(to right, rgb(31, 126, 251), rgb(1, 187, 91));
+	overflow: hidden;
+	height: 30px;
+}
+.contact {
+	float: left;
+	display: flex;
+	color: white;
+	padding-left: 0.5%;
+	padding-bottom: 0;
+}
+.contact p {
+	padding-left: 8px;
+	padding-right: 8px;
+	text-aling: center;
+	margin-top: 5px;
+}
+.socButtons {
+	float: right;
+	display: block;
+	padding-right: 5%;
+}
+.socButtons a {
+	text-decoration: none;
+	padding: 5px;
+	text-align: center;
+	font-size: 20px;
+	width: 30px;
+	height: 100%;
+	color: white;
+}
+.socButtons a:hover {
+	background-color: lightgreen;
+	transition: 580ms ease;
+}
+.topnav {
+	background-color: #f2f2f2;
+	overflow: hidden;
+	padding-bottom: 0px;
+	position: sticky;
+	z-index: 5;
+	top: 0;
+}
+.topnav a {
+	float: left;
+	display: block;
+	color: black;
+	test-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-bottom-color: white;
+	border-bottom-width: 10px;
+}
+.topnav a:hover {
+	color: lightgreen;
+	border-bottom-color: lightgreen;
+	TRANSITION: 400ms ease;
+}
+.header {
+	padding: 60px;
+	height: 15em;
+	text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/heading-back.jpg');
+	background-size: cover;
+	color: white;
+	font-size: 30px;
+	background-attachment: fixed;
+	background-position: center;
+}
+.header a {
+	background-color: rgb(0, 189, 86);
+	padding: 5px;
+	color: white;
+	border-radius: 5px;
+	font-size: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(0, 189, 86);
+	text-decoration: none;
+	z-index: 3;
+}
+.header a:hover {
+	color: rgb(0, 189, 86);
+	background-color: rgba(0, 0, 0, 0);
+	transition: 350ms ease;
+}
+.services {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.service {
+	text-align: center;
+	padding: 8px;
+	margin: 5px;
+	margin-top: -10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: white;
+	border-radius: 5px;
+}
+.service:hover {
+	background-color: rgb(0, 189, 86);
+	color: white;
+	transition: 500ms ease;
+}
+.service a {
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgb(31, 126, 251);
+	padding: 5px;
+	color: white;
+	border-radius: 5px;
+	font-size: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(31, 126, 251);
+	text-decoration: none;
+}
+.service a:hover {
+	color: rgb(31, 126, 251);
+	background-color: white;
+	transition: 350ms ease;
+}
+.img {
+	background-image: url("images/formPhoto.jpg");
+	background-attachment: fixed;
+	background-color:#cccccc;
+	background-size: 50% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 400px;
+	width: 50%;
+	z-index: -10;
+	display: inline-block;
+}
+.forms {
+	height: 400px;
+}
+.form {
+	position: relative;
+	right: 18%;
+	display: inline-block;
+	text-align: center;
+	float: right;
+}
+.footer {
+	text-align: center;
+	color: white;
+	background-color: #222;
+	height: 120px;
+}
